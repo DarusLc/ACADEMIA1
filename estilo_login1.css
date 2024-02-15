@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.login{
+    background: #201b2c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.esquerda{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+.esquerda > h1{
+    color: #77ffc0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.direita{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-login{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #36d9df;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #091db656;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+.texto{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.texto > input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #514869;
+    color: #ffff;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.texto > label {
+    color:#000000;
+    margin-bottom: 10px;
+}
+
+.btn-login{
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border:none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #afaac7;
+    background: #2ef4fb;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #1d23d1;
+}
+
+.esquerda-imagem{
+    width: 40%;
+    height: 40%;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+.label{
+    padding-right: 350px;
+    color: #00010b;
+}
+
+.click{
+    text-decoration: none;
+}
+
+.span-required{
+    margin: 3px 0 0 1px;
+    font-size: 14px;
+    color: var(--color-red);
+    display: none;
+}
+
